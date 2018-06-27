@@ -1,10 +1,8 @@
 # export PS1='\u@\h:\w$ '
 # time // user // host // dir
-# export PS1="\[\e[31m\]\t\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[35m\]\u\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[95m\]\h\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[36m\]\w\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
-export PS1="\[\e[31m\]\t\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[35m\]\u\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[95m\]\h\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[36m\]\w\[\e[m\]\n\[\e[34m\]\\$\[\e[m\] "
+export PS1="\[\e[31m\]\t\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[35m\]\u\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[95m\]\h\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[36m\]\w\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
 
 # added by Anaconda3 4.1.1 installer
-
 export PATH="/Users/joekim/anaconda/bin:$PATH"
 
 # Setting PATH for Python 3.5
