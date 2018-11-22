@@ -1,6 +1,6 @@
 set number
 syntax on
-set tabstop=4 shiftwidth=4 noexpandtab
+set tabstop=4 shiftwidth=4 expandtab
 set autoindent
 set smartindent
 set cc=80 " ruler settings

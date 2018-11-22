@@ -1,6 +1,21 @@
+# Some different bash prompts to choose from
+
+# user@host:dir$
 # export PS1='\u@\h:\w$ '
+
 # time // user // host // dir
-export PS1="\[\e[31m\]\t\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[35m\]\u\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[95m\]\h\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[36m\]\w\[\e[m\] \[\e[2m\]//\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
+# export PS1="\[\e[31m\]\t\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[35m\]\u\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[95m\]\h\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[36m\]\w\[\e[m\]\[\e[2m\]:\[\e[m\]\[\e[34m\]\\$\[\e[m\] "
+
+# time // user // host // dir
+export PS1="\[\e[90m\][\t]\[\e[m\] \[\e[36m\]\w\[\e[m\]
+\[\e[35m\]\u\[\e[m\] \[\e[91m\]>\[\e[m\] "
+
+# time // user // host // dir
+# export PS1="\[\e[31m\]\t\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[35m\]\u\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[95m\]\h\[\e[m\]\[\e[2m\]//\[\e[m\]\[\e[36m\]\w\[\e[m\]\[\e[2m\]:\[\e[m\]\[\e[34m\]\\$\[\e[m\] "
+
+
+# setting JAVA_HOME variable for Apache Beam
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 
 # added by Anaconda3 4.1.1 installer
 export PATH="/Users/joekim/anaconda/bin:$PATH"
@@ -19,9 +34,6 @@ export PATH
 export CLICOLOR=1
 # specifies how to color specific terms
 export LSCOLORS=GxFxCxDxBxegedabagaced
-
-# fun cowsay at beginning
-# cowsay -f coolcat2 Hey, Joe. Time to cry. | lolcat
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
