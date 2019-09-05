@@ -6,7 +6,6 @@ set smartindent
 set cc=80 " ruler settings
 highlight ColorColumn ctermbg=15
 set t_Co=256
-set background=dark
 set termguicolors
-colorscheme material-monokai " colorscheme found on github
+colorscheme pablo " colorscheme found on github
 set backspace=indent,eol,start " backspace over everything in insert mode
